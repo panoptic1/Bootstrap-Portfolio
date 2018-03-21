@@ -1,0 +1,22 @@
+.jumbotron {
+    background-color: cadetblue;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+}
+
+ul {
+    text-decoration: none;
+    display: inline;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'IBM Plex Serif', serif;
+    color: cadetblue;
+}
