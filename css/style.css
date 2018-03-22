@@ -11,12 +11,32 @@ ul {
     display: inline;
 }
 
+body {
+    background-image: url(imgs/spiration-light.png)
+}
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin: 30px auto 50px;
 }
 
 h2 {
     font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
     color: cadetblue;
 }
+p {
+    line-height: 2.1em;
+    color: grey;
+}
+
+.footer {
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 30px 0 0 0;
+    border-top: 5px cadetblue solid;
+    text-align: center;
+    color: white;
+}
+
