@@ -16,20 +16,27 @@ body {
 }
 .container {
     width: 960px;
-    margin: 30px auto 50px;
+    margin: 30px auto;
 }
 
 h2 {
     font-family: 'IBM Plex Serif', serif;
     font-weight: bold;
     color: cadetblue;
+    margin: 0 0 0 20px;
 }
+
+img {
+    float: left;
+}
+
 p {
     line-height: 2.1em;
     color: grey;
+    clear: both;
 }
 
-.footer {
+footer {
     background-color: #666666;
     width: 100%;
     bottom: 0;
@@ -40,3 +47,36 @@ p {
     color: white;
 }
 
+.project {
+   position: relative;
+   display: inline-block;
+   /* padding: 20px 10px 20px 50px; */
+   padding: 20px;
+}
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 70%;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
