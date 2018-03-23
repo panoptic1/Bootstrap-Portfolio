@@ -6,17 +6,19 @@
     font-weight: bold;
 }
 
+body {
+    background-image: url(../imgs/spiration-light.png);
+}
+
 ul {
     text-decoration: none;
     display: inline;
 }
 
-body {
-    background-image: url(imgs/spiration-light.png)
-}
 .container {
     width: 960px;
     margin: 30px auto;
+    background-color: white;
 }
 
 h2 {
@@ -36,7 +38,7 @@ p {
     clear: both;
 }
 
-footer {
+.footer {
     background-color: #666666;
     width: 100%;
     bottom: 0;
@@ -79,4 +81,21 @@ footer {
   
   .container .btn:hover {
     background-color: black;
+  }
+/*The code below here is exactly the same as what was indicated for the "footer" class, but with the margin-left added,
+since the footer on the Portfolio was pushing to the right for some reason.*/
+  .footer2 {
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 30px 0 0 0;
+    border-top: 5px cadetblue solid;
+    text-align: center;
+    color: white;
+    margin-left: -220px;
+  }
+
+  .inputfield {
+      height: 200px;
   }
